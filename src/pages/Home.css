@@ -1,0 +1,24 @@
+.home-app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.btn-study {
+  width: 30%;
+  text-align: center;
+  background-color: rgb(211, 74, 74);
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  border-radius: 14px;
+  cursor: pointer;
+  transition: scale .1s ease-in;
+}
+
+.btn-study:hover {
+  scale: 1.3;
+}

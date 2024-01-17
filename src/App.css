@@ -1,0 +1,48 @@
+.app-container {
+  height: 100vh;
+  width: 100%;
+  overflow-y: auto;
+}
+
+.w150{
+  width: 150px;
+}
+
+.w400{
+  width: 400px;
+}
+
+.btn {
+  display: block;
+  padding: 8px;
+  border-radius: 25px;
+  transition: scale .1s ease-in;
+}
+
+.btn:hover {
+  scale: 1.1;
+}
+
+.btn-red {
+  background-color: rgb(211, 74, 74);
+  color: #fff;
+}
+
+.text-left {
+  text-align: start;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn-blue {  
+  background-color: rgb(31, 118, 233);
+  color: white;
+}
+
+.btn-blue-dark {
+  background-color: rgb(14, 68, 138);
+  color: white;
+}
+
