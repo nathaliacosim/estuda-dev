@@ -9,8 +9,8 @@ function ProgramacaoBasica() {
           <h3>Aulas Disponíveis!</h3>
           <br />
           <div>
-            <a className="btn btn-blue-dark text-center w400" href="/aula0">
-              Conteúdos - Aula 0
+            <a className="btn btn-blue-dark text-center w150" href="/aula0">
+              Aula 0
             </a>
           </div>
           <br />
