@@ -17,6 +17,8 @@
   padding: 8px;
   border-radius: 25px;
   transition: scale .1s ease-in;
+  border: none;
+  margin-left: 5px;
 }
 
 .btn:hover {
@@ -46,3 +48,8 @@
   color: white;
 }
 
+.app-center{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

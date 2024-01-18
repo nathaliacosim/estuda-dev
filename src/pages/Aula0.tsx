@@ -1,3 +1,4 @@
+import Cronometer from "../components/Cronometer";
 import PageContainer from "../components/PageContainer";
 import Paper from "../components/Paper";
 
@@ -6,11 +7,13 @@ function Aula0() {
     <PageContainer>
       <Paper>
         <div className="aulas">
+          <Cronometer />
           <h3>Bem vindo a Aula 0!</h3>
           <br />
           <div>
             <p>Hoje você irá aprender IF/ELSE em PYTHON!!!</p>
             <br />
+
             <p>1° Passo:</p>
             <br />
             <a
@@ -46,6 +49,17 @@ function Aula0() {
             <br />
             <p>4° Passo:</p>
             <br />
+            <a
+              className="btn btn-blue-dark text-center"
+              href="https://drive.google.com/drive/folders/1zcfgPNDlaOotrHxaVrrOuIw77RMO7dYz?usp=sharing"
+              target="_blank"
+            >
+              Faça upload dos exercícios nesta pasta do drive!
+            </a>
+            <br />
+            <br />
+            <p>5° Passo:</p>
+            <br />
             <p>
               Identifique os pontos em que teve dificuldades durante a resolução
               dos problemas e faça anotações sobre o que precisa revisar. :)
@@ -54,6 +68,7 @@ function Aula0() {
           <br />
           <br />
           <br />
+
           <a className="btn btn-blue text-center" href="/programacao-basica">
             Voltar
           </a>
