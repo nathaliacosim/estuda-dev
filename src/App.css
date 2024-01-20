@@ -48,6 +48,16 @@
   color: white;
 }
 
+.btn-orange {
+  background-color: rgb(224, 136, 35);
+  color: white;
+}
+
+.btn-green {
+  background-color: rgb(22, 180, 48);
+  color: white;
+}
+
 .app-center{
   display: flex;
   flex-direction: row;

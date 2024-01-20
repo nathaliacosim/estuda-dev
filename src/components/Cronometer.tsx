@@ -71,19 +71,19 @@ const Cronometer = () => {
       <br />
       <div className="app-center">
         <button
-          className="btn btn-blue-dark w150 text-center"
+          className="btn btn-green w150 text-center"
           onClick={iniciarContagem}
         >
           Iniciar
         </button>
         <button
-          className="btn btn-blue-dark w150 text-center"
+          className="btn btn-green w150 text-center"
           onClick={pausarContagem}
         >
           Pausar
         </button>
         <button
-          className="btn btn-blue-dark w150 text-center"
+          className="btn btn-green w150 text-center"
           onClick={reiniciarContagem}
         >
           Reiniciar
